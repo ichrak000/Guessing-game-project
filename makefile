@@ -4,7 +4,7 @@ NB_LIGNES := $(shell wc -l < $(FICHER_SCRIPT))
 
 
 $(FICHER_README): $(FICHER_SCRIPT)
-	@echo "# jeu de devinettes Bash" > $(FICHER_README)
+	@echo "# GUESSING GAME" > $(FICHER_README)
 	@echo "" >> $(FICHER_README)
 	@echo "## Date de construction" >> $(FICHER_README)
 	@echo "Ce fichier a ete généré automatiquement le : " >> $(FICHER_README)
